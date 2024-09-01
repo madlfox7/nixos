@@ -10,7 +10,7 @@
   users.users.user = {
     isNormalUser = true;
     extraGroups = [ "wheel" "docker" ];
-    packages = with pkgs; [ tmux vim git gnumake ];
+    packages = with pkgs; [ tmux vim git gnumake docker-compose openssl ];
     openssh.authorizedKeys.keys = [
       "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIC3fGOvvtGnwpYgeNJDFHzHSG2rqDalqvReCMrEHyLUW ksudzilo@c2r13s3.42yerevan.am"
     ];
