@@ -1,0 +1,6 @@
+echo 'from scratch' | docker build
+> id
+docker run $id /lol
+> no /lol
+nix run nixpkgs#pkgsStatic.gcc
+nix-collect-garbage -d

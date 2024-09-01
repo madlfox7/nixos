@@ -1,0 +1,7 @@
+services:
+  # To-do: add logging.
+  http:
+    build: http
+    ports:
+      - "1234:443"
+      - "1235:80"
